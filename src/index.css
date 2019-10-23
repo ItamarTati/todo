@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: #0074D9;
+  background-size: cover; 
+  color: #ffffff;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.todolist {  
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+  font-size: 15px;
+  color: #858585;
+  font-weight: 400;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 20px;
+	position: relative;
+}
+
+ul {
+  text-align: left;
+
+}
+
+p {
+  text-align: right;
+
 }
